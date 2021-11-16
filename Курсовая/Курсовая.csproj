@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\..\Desktop\Новая папка (2)\v4.5.2\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data.EntityFramework">
       <HintPath>..\..\..\..\Desktop\Новая папка (2)\v4.5.2\MySql.Data.EntityFramework.dll</HintPath>

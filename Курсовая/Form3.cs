@@ -24,6 +24,27 @@ namespace Курсовая
             conn = new MySqlConnection(connStr);
             GetListSotrudnik(listBox2);
         }
+        public void DeletetUser()
+        {
+            string id = Convert.ToString(textBox6.Text);
+            string sql_delete_user = $"DELETE FROM Sotrudnik WHERE id='{id}'";
+            MySqlCommand delete_user = new MySqlCommand(sql_delete_user, conn);
+            try
+            {
+                conn.Open();
+                delete_user.ExecuteNonQuery();
+                MessageBox.Show("Уволен", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Невозможно уволить \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
 
         //Вывод информации о таблице
         public void GetListSotrudnik(ListBox lb)
@@ -35,7 +56,7 @@ namespace Курсовая
             MySqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                lb.Items.Add($"ФИО Сотрудника: {reader[1].ToString()} Возраст: {reader[2].ToString()} Должность: {reader[3].ToString()} Номер телефона: {reader[4].ToString()}");
+                lb.Items.Add($"id: {reader[0].ToString()} ФИО Сотрудника: {reader[1].ToString()} Возраст: {reader[2].ToString()} Должность: {reader[3].ToString()} Номер телефона: {reader[4].ToString()}");
             }
             reader.Close();
             conn.Close();
@@ -92,6 +113,7 @@ namespace Курсовая
             int age = Convert.ToInt32(textBox3.Text);
             string doljnost = textBox4.Text;
             string numbers = textBox5.Text;
+
             if (InsertSotrudnik(FIO, age, doljnost, numbers))
             {
                 GetListSotrudnik(listBox2);
@@ -100,6 +122,11 @@ namespace Курсовая
             {
                 MessageBox.Show("Произошла ошибка.", "Ошибка");
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
