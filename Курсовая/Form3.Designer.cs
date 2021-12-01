@@ -49,12 +49,13 @@ namespace Курсовая
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Location = new System.Drawing.Point(1, 255);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Найти";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
@@ -91,12 +92,13 @@ namespace Курсовая
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button2.Location = new System.Drawing.Point(279, 255);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(129, 41);
             this.button2.TabIndex = 7;
             this.button2.Text = "Добавить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox2
@@ -165,12 +167,13 @@ namespace Курсовая
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Location = new System.Drawing.Point(820, 255);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(129, 41);
             this.button3.TabIndex = 16;
             this.button3.Text = "Уволить";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox6
@@ -184,7 +187,8 @@ namespace Курсовая
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(994, 450);
+            this.BackgroundImage = global::Курсовая.Properties.Resources.sport__2_;
+            this.ClientSize = new System.Drawing.Size(979, 436);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label5);

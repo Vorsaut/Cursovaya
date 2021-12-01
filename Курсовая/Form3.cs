@@ -127,6 +127,7 @@ namespace Курсовая
         private void button3_Click(object sender, EventArgs e)
         {
             DeletetUser();
+            GetListSotrudnik(listBox2);
         }
     }
 }
