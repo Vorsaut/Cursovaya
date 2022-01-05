@@ -58,16 +58,87 @@ namespace Курсовая
                 listBox1.Items.Add("ФИО - " + reader[0].ToString());
                 listBox1.Items.Add("Возраст - " + reader[1].ToString());
                 listBox1.Items.Add("Тариф - " + reader[2].ToString());
-                listBox1.Items.Add("Номер телефона - " + reader[3].ToString()); 
-                
+                listBox1.Items.Add("Номер телефона - " + reader[3].ToString());
+                listBox1.Items.Add("---------------------------------------------------");
             }
             reader.Close();
             conn.Close();
+        }
+        public bool InsertTarif(string IFIO, int Iage, string Itarif, string Inumbers)
+        {
+            int InsertCount = 0;
+            bool result = false;
+            conn.Open();
+            string query = $"INSERT INTO Client (FIO, Age, id_tarif, numbers ) VALUES ('{IFIO}', '{Iage}', '{Itarif}', '{Inumbers}')";
+            try
+            {
+                MySqlCommand command = new MySqlCommand(query, conn);
+                InsertCount = command.ExecuteNonQuery();
+            }
+            catch
+            {
+                InsertCount = 0;
+            }
+            finally
+            {
+                conn.Close();
+                if (InsertCount != 0)
+                {
+                    result = true;
+                }
+            }
+            return result;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Getaue(listBox1);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string FIO = textBox2.Text;
+            int Age = Convert.ToInt32(textBox3.Text);
+            string id_tarif = textBox4.Text;
+            string numbers = textBox5.Text;
+
+            if (InsertTarif(FIO, Age, id_tarif, numbers))
+            {
+                GetListClient(listBox1);
+            }
+            else
+            {
+                MessageBox.Show("Произошла ошибка.", "Ошибка");
+            }
+        }
+
+        public void DeletetUser()
+        {
+            string id = Convert.ToString(textBox1.Text);
+            string sql_delete_user = $"DELETE FROM Client WHERE id='{id}'";
+            MySqlCommand delete_user = new MySqlCommand(sql_delete_user, conn);
+            try
+            {
+                conn.Open();
+                delete_user.ExecuteNonQuery();
+                MessageBox.Show("Удален", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Невозможно уволить \n" + ex, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            DeletetUser();
+            Getaue(listBox1);
+            GetListClient(listBox1);
         }
     }
 }

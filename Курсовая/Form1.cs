@@ -31,5 +31,10 @@ namespace Курсовая
             Form2 Form2 = new Form2();
             Form2.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

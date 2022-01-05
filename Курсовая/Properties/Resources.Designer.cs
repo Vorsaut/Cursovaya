@@ -63,6 +63,36 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1625187244_33_kartinkin_com_p_sportzal_fon_krasivie_foni_34 {
+            get {
+                object obj = ResourceManager.GetObject("1625187244_33-kartinkin-com-p-sportzal-fon-krasivie-foni-34", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3020e58b53763687ab51f4b92635e1de {
+            get {
+                object obj = ResourceManager.GetObject("3020e58b53763687ab51f4b92635e1de", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6626836_dumbbell_pop_art {
+            get {
+                object obj = ResourceManager.GetObject("6626836-dumbbell-pop-art", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9U9P9vSKgSM {
             get {
                 object obj = ResourceManager.GetObject("9U9P9vSKgSM", resourceCulture);
@@ -93,6 +123,46 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IxX5aGrp68o1 {
+            get {
+                object obj = ResourceManager.GetObject("IxX5aGrp68o1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Papich_seksualno_stonet_sadyas_na_shpagat {
+            get {
+                object obj = ResourceManager.GetObject("Papich-seksualno-stonet-sadyas-na-shpagat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_6 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_61 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sport {
             get {
                 object obj = ResourceManager.GetObject("sport", resourceCulture);
@@ -106,6 +176,16 @@ namespace Курсовая.Properties {
         internal static System.Drawing.Bitmap sport__2_ {
             get {
                 object obj = ResourceManager.GetObject("sport (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ганте_и_нарисованные_в_векторе_и_юстрация_я_открытки_и_и_п_аката_90464791 {
+            get {
+                object obj = ResourceManager.GetObject("ганте-и-нарисованные-в-векторе-и-юстрация-я-открытки-и-и-п-аката-90464791", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

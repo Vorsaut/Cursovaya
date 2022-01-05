@@ -118,14 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="IxX5aGrp68o" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IxX5aGrp68o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="9U9P9vSKgSM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9U9P9vSKgSM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IxX5aGrp68o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IxX5aGrp68o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ганте-и-нарисованные-в-векторе-и-юстрация-я-открытки-и-и-п-аката-90464791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ганте-и-нарисованные-в-векторе-и-юстрация-я-открытки-и-и-п-аката-90464791.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sport" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IxX5aGrp68o1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IxX5aGrp68o1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="f579ad073f9bdc5743b763bcf352b65417fba090_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f579ad073f9bdc5743b763bcf352b65417fba090_full.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,7 +142,22 @@
   <data name="sport (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sport (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3020e58b53763687ab51f4b92635e1de" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3020e58b53763687ab51f4b92635e1de.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6626836-dumbbell-pop-art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6626836-dumbbell-pop-art.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="загружено" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\загружено.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Papich-seksualno-stonet-sadyas-na-shpagat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Papich-seksualno-stonet-sadyas-na-shpagat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1625187244_33-kartinkin-com-p-sportzal-fon-krasivie-foni-34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1625187244_33-kartinkin-com-p-sportzal-fon-krasivie-foni-34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

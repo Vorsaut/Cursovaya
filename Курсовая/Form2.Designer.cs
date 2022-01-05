@@ -36,9 +36,9 @@ namespace Курсовая
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 335);
+            this.button1.Location = new System.Drawing.Point(129, 98);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 42);
+            this.button1.Size = new System.Drawing.Size(330, 86);
             this.button1.TabIndex = 0;
             this.button1.Text = "Складской учет";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@ namespace Курсовая
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(118, 335);
+            this.button2.Location = new System.Drawing.Point(129, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 42);
+            this.button2.Size = new System.Drawing.Size(330, 80);
             this.button2.TabIndex = 1;
             this.button2.Text = "Сотрудники";
             this.button2.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@ namespace Курсовая
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(255, 335);
+            this.button3.Location = new System.Drawing.Point(129, 190);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(143, 42);
+            this.button3.Size = new System.Drawing.Size(330, 77);
             this.button3.TabIndex = 2;
             this.button3.Text = "Клиенты";
             this.button3.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@ namespace Курсовая
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Курсовая.Properties.Resources.загружено;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(597, 323);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
