@@ -137,5 +137,19 @@ namespace Курсовая
             Form8 form8 = new Form8();
             form8.ShowDialog();
         }
+
+        private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            dataGridView1.CurrentCell = dataGridView1[e.ColumnIndex, e.RowIndex];
+            dataGridView1.CurrentRow.Selected = true;
+            GetSelectedIDString();
+        }
+        public void GetSelectedIDString()
+        {
+            string index_selected_rows;
+            index_selected_rows = dataGridView1.SelectedCells[0].RowIndex.ToString();
+            id_selected_rows = dataGridView1.Rows[Convert.ToInt32(index_selected_rows)].Cells[0].Value.ToString();
+            toolStripLabel4.Text = id_selected_rows;
+        }
     }
 }
