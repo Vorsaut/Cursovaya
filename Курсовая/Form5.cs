@@ -50,19 +50,27 @@ namespace Курсовая
             conn.Open();
           
             string sql = $"SELECT FIO, Age, id_tarif, numbers FROM Client WHERE id_tarif={selected_id_tarif}";
-            MySqlCommand command = new MySqlCommand(sql, conn);
-            MySqlDataReader reader = command.ExecuteReader();
-           
-            while (reader.Read())
+            try
             {
-                listBox1.Items.Add("ФИО - " + reader[0].ToString());
-                listBox1.Items.Add("Возраст - " + reader[1].ToString());
-                listBox1.Items.Add("Тариф - " + reader[2].ToString());
-                listBox1.Items.Add("Номер телефона - " + reader[3].ToString());
-                listBox1.Items.Add("---------------------------------------------------");
+                MySqlCommand command = new MySqlCommand(sql, conn);
+                MySqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    listBox1.Items.Add("ФИО - " + reader[0].ToString());
+                    listBox1.Items.Add("Возраст - " + reader[1].ToString());
+                    listBox1.Items.Add("Тариф - " + reader[2].ToString());
+                    listBox1.Items.Add("Номер телефона - " + reader[3].ToString());
+                    listBox1.Items.Add("---------------------------------------------------");
+                }
+                reader.Close();
+                conn.Close();
             }
-            reader.Close();
-            conn.Close();
+            catch(Exception aueshka)
+            {
+                MessageBox.Show("Условия не выполнены");
+                conn.Close();
+            }
+            
         }
         public bool InsertTarif(string IFIO, int Iage, string Itarif, string Inumbers)
         {

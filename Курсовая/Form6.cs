@@ -123,6 +123,7 @@ namespace Курсовая
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             DeleteSotrud();
+            reload_list();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)
