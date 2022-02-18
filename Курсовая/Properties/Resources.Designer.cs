@@ -63,6 +63,26 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1612568297_149_p_fon_zelenie_kvadrati_251 {
+            get {
+                object obj = ResourceManager.GetObject("1612568297_149-p-fon-zelenie-kvadrati-251", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1614631546_20_p_fon_kirpichnaya_stena_dlya_fotoshopa_26 {
+            get {
+                object obj = ResourceManager.GetObject("1614631546_20-p-fon-kirpichnaya-stena-dlya-fotoshopa-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1625187244_33_kartinkin_com_p_sportzal_fon_krasivie_foni_34 {
             get {
                 object obj = ResourceManager.GetObject("1625187244_33-kartinkin-com-p-sportzal-fon-krasivie-foni-34", resourceCulture);
@@ -93,6 +113,16 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8a7c1b61acd0ae42acbe0fcb8b8c38d0 {
+            get {
+                object obj = ResourceManager.GetObject("8a7c1b61acd0ae42acbe0fcb8b8c38d0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9U9P9vSKgSM {
             get {
                 object obj = ResourceManager.GetObject("9U9P9vSKgSM", resourceCulture);
@@ -113,9 +143,39 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap free_icon_client_5969470 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-client-5969470", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_icon_cross_390914 {
             get {
                 object obj = ResourceManager.GetObject("free-icon-cross-390914", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_satisfied_1244688 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-satisfied-1244688", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_satisfied_customer_2039048 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-satisfied-customer-2039048", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +236,26 @@ namespace Курсовая.Properties {
         internal static System.Drawing.Bitmap premium_icon_door_open_2832141__1_ {
             get {
                 object obj = ResourceManager.GetObject("premium-icon-door-open-2832141 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_employee_560286 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-employee-560286", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_warehouse_2630927 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-warehouse-2630927", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

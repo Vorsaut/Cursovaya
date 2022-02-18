@@ -241,5 +241,29 @@
   <ItemGroup>
     <None Include="Resources\free-icon-cross-390914.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-employee-560286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1614631546_20-p-fon-kirpichnaya-stena-dlya-fotoshopa-26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1612568297_149-p-fon-zelenie-kvadrati-251.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8a7c1b61acd0ae42acbe0fcb8b8c38d0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-warehouse-2630927.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-client-5969470.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-satisfied-customer-2039048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-satisfied-1244688.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
