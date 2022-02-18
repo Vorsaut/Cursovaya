@@ -229,5 +229,17 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-door-open-2832141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-door-icon-png-image_912720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-door-open-2832141 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-cross-390914.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

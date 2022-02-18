@@ -113,6 +113,16 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap free_icon_cross_390914 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-cross-390914", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IxX5aGrp68o {
             get {
                 object obj = ResourceManager.GetObject("IxX5aGrp68o", resourceCulture);
@@ -136,6 +146,36 @@ namespace Курсовая.Properties {
         internal static System.Drawing.Bitmap Papich_seksualno_stonet_sadyas_na_shpagat {
             get {
                 object obj = ResourceManager.GetObject("Papich-seksualno-stonet-sadyas-na-shpagat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_vector_door_icon_png_image_912720 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-vector-door-icon-png-image_912720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_door_open_2832141 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-door-open-2832141", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_door_open_2832141__1_ {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-door-open-2832141 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
