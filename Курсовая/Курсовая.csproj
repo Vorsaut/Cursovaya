@@ -272,5 +272,11 @@
   <ItemGroup>
     <None Include="Resources\premium-icon-edit-button-5251816.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-job-seeker-6404038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-job-seeker-6404038 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

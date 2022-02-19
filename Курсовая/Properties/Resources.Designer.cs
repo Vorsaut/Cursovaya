@@ -183,6 +183,26 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap free_icon_job_seeker_6404038 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-job-seeker-6404038", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_job_seeker_6404038__1_ {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-job-seeker-6404038 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_icon_reset_954000 {
             get {
                 object obj = ResourceManager.GetObject("free-icon-reset-954000", resourceCulture);
