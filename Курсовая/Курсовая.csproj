@@ -63,15 +63,7 @@
   <ItemGroup>
     <Reference Include="MySql.Data, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Евгений самолёт\Desktop\Библиотеки\v4.5.2\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data.EntityFramework, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Евгений самолёт\Desktop\Библиотеки\v4.5.2\MySql.Data.EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Web, Version=8.0.21.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Евгений самолёт\Desktop\Библиотеки\v4.5.2\MySql.Web.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -264,6 +256,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\free-icon-satisfied-1244688.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-magnifier-3466268.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-add-file-1090923.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-add-file-10909231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-reset-954000.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
