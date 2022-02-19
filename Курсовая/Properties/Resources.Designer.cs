@@ -273,6 +273,16 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_edit_button_5251816 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-edit-button-5251816", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap premium_icon_employee_560286 {
             get {
                 object obj = ResourceManager.GetObject("premium-icon-employee-560286", resourceCulture);

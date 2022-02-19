@@ -269,5 +269,8 @@
   <ItemGroup>
     <None Include="Resources\free-icon-reset-954000.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-edit-button-5251816.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

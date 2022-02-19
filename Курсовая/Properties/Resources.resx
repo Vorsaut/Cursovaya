@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="загружено" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\загружено.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="1614631546_20-p-fon-kirpichnaya-stena-dlya-fotoshopa-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1614631546_20-p-fon-kirpichnaya-stena-dlya-fotoshopa-26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,6 +133,9 @@
   <data name="premium-icon-warehouse-2630927" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\premium-icon-warehouse-2630927.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="premium-icon-magnifier-3466268" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\premium-icon-magnifier-3466268.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sport (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sport (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +150,9 @@
   </data>
   <data name="premium-icon-employee-560286" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\premium-icon-employee-560286.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-icon-add-file-10909231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-add-file-10909231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ганте-и-нарисованные-в-векторе-и-юстрация-я-открытки-и-и-п-аката-90464791" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ганте-и-нарисованные-в-векторе-и-юстрация-я-открытки-и-и-п-аката-90464791.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,13 +202,13 @@
   <data name="free-icon-cross-390914" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-cross-390914.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="premium-icon-magnifier-3466268" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\premium-icon-magnifier-3466268.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="free-icon-add-file-10909231" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-icon-add-file-10909231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="free-icon-reset-954000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-reset-954000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="загружено" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\загружено.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premium-icon-edit-button-5251816" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\premium-icon-edit-button-5251816.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
