@@ -46,5 +46,11 @@ namespace Курсовая
             Form5 Form5 = new Form5();
             Form5.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form3 Form3 = new Form3();
+                Form3.ShowDialog();
+        }
     }
 }
