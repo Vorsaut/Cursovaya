@@ -19,7 +19,7 @@ namespace Курсовая.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -253,6 +253,16 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap neon_lights_background_theme_52683_44625 {
+            get {
+                object obj = ResourceManager.GetObject("neon-lights-background-theme_52683-44625", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Papich_seksualno_stonet_sadyas_na_shpagat {
             get {
                 object obj = ResourceManager.GetObject("Papich-seksualno-stonet-sadyas-na-shpagat", resourceCulture);
@@ -273,6 +283,16 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_add_button_5249076 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-add-button-5249076", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap premium_icon_door_open_2832141 {
             get {
                 object obj = ResourceManager.GetObject("premium-icon-door-open-2832141", resourceCulture);
@@ -286,6 +306,16 @@ namespace Курсовая.Properties {
         internal static System.Drawing.Bitmap premium_icon_door_open_2832141__1_ {
             get {
                 object obj = ResourceManager.GetObject("premium-icon-door-open-2832141 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_edit_3756640 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-edit-3756640", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +346,36 @@ namespace Курсовая.Properties {
         internal static System.Drawing.Bitmap premium_icon_magnifier_3466268 {
             get {
                 object obj = ResourceManager.GetObject("premium-icon-magnifier-3466268", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_refresh_4281273 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-refresh-4281273", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_refresh_4281273__1_ {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-refresh-4281273 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap premium_icon_trash_5946859 {
+            get {
+                object obj = ResourceManager.GetObject("premium-icon-trash-5946859", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

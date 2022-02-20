@@ -25,14 +25,6 @@ namespace Курсовая
             conn = new MySqlConnection(connStr);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            {
-                Form4 Form4 = new Form4();
-                Form4.ShowDialog();
-            }
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             {

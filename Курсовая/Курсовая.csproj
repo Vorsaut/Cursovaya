@@ -102,12 +102,6 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,9 +145,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
@@ -303,6 +294,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\free-icon-job-seeker-6404038 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-refresh-4281273.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-refresh-4281273 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-add-button-5249076.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-edit-3756640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-trash-5946859.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neon-lights-background-theme_52683-44625.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
