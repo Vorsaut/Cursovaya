@@ -22,20 +22,25 @@ namespace Курсовая
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int insert = 0;
             string com = $"INSERT INTO Sotrudnik (FIO, age, doljnost, numbers) VALUES ('{textBox1.Text}', '{textBox2.Text}', '{textBox3.Text}', '{textBox4.Text}')";
             MySqlCommand sql = new MySqlCommand(com, conn);
             conn.Open();
             try
-            { 
-                sql.ExecuteNonQuery(); 
+            {
+                insert = sql.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("ошибка");
+
             }
             finally
             {
-                MessageBox.Show("новый сотрудник успешно добавлен");
+                if (insert > 0)
+                { 
+                    MessageBox.Show("новый сотрудник успешно добавлен");
+            }
                 conn.Close();
             }
         }
