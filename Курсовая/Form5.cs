@@ -48,6 +48,7 @@ namespace Курсовая
         {
             string selected_id_tarif = textBox1.Text;
             conn.Open();
+            listBox1.Items.Clear();
           
             string sql = $"SELECT FIO, Age, id_tarif, numbers FROM Client WHERE id_tarif={selected_id_tarif}";
             try

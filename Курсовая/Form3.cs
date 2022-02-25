@@ -34,7 +34,6 @@ namespace Курсовая
             dataGridView1.Columns[1].FillWeight = 40;
             dataGridView1.Columns[2].FillWeight = 15;
             dataGridView1.Columns[3].FillWeight = 15;
-
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.ColumnHeadersVisible = true;
 
@@ -53,7 +52,7 @@ namespace Курсовая
 
         public void GetListUsers()
         {
-            string commandStr = $"SELECT * FROM sklad";
+            string commandStr = $"SELECT id AS 'Айди', Name AS 'Имя', Quantity AS 'Количество', Price AS 'Цена' FROM sklad";
             conn.Open();
             MyDA.SelectCommand = new MySqlCommand(commandStr, conn);
             MyDA.Fill(table);
