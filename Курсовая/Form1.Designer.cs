@@ -72,6 +72,8 @@ namespace Курсовая
             this.label1.Size = new System.Drawing.Size(248, 55);
             this.label1.TabIndex = 9;
             this.label1.Text = "Спортзал";
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             // 
             // Form1
             // 
