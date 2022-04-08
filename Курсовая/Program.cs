@@ -18,5 +18,9 @@ namespace Курсовая
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        public class Param
+        {
+            public string pod = "server=chuc.caseum.ru; port=33333; user=st_2_19_17; password=55795425; database= is_2_19_st17_KURS";
+        }
     }
 }

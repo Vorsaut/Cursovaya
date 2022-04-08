@@ -27,8 +27,8 @@ namespace Курсовая
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            string connStr = "server=caseum.ru;port=33333;user=st_2_17_19;database=st_2_17_19;password=78741203";
-            conn = new MySqlConnection(connStr);
+            Program.Param poh = new Program.Param();
+            conn = new MySqlConnection(poh.pod);
             GetListUsers();
             dataGridView1.Columns[0].FillWeight = 15;
             dataGridView1.Columns[1].FillWeight = 40;
