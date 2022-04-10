@@ -49,6 +49,7 @@ namespace Курсовая
         {
             Program.Param poh = new Program.Param();
             conn = new MySqlConnection(poh.pod);
+            toolTip1.SetToolTip(this.button1, "Добавить сотрудника в БД");
         }
     }
 }

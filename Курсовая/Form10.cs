@@ -25,6 +25,7 @@ namespace Курсовая
             Program.Param poh = new Program.Param();
             conn = new MySqlConnection(poh.pod);
             comboadd();
+            toolTip1.SetToolTip(this.button1, "Изменить значение товара");
         }
 
         public void comboadd()
@@ -80,6 +81,11 @@ namespace Курсовая
         private void comboBox1_TextChanged(object sender, EventArgs e)
         {
             comboup();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

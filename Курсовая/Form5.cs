@@ -24,10 +24,12 @@ namespace Курсовая
             Program.Param poh = new Program.Param();
             conn = new MySqlConnection(poh.pod);
             GetListClient(listBox1);
+            comboup();
         }
-        public void Getaue(ListBox lb)
+        public void ochishaet(ListBox lb)
         {
             lb.Items.Clear();
+
         }
         public void GetListClient(ListBox lb)
         {
@@ -101,7 +103,8 @@ namespace Курсовая
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Getaue(listBox1);
+            ochishaet(listBox1);
+            GetListClient(listBox1);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -123,7 +126,7 @@ namespace Курсовая
 
         public void DeletetUser()
         {
-            string id = Convert.ToString(textBox1.Text);
+            string id = Convert.ToString(comboBox1.Text);
             string sql_delete_user = $"DELETE FROM Client WHERE id='{id}'";
             MySqlCommand delete_user = new MySqlCommand(sql_delete_user, conn);
             try
@@ -143,10 +146,28 @@ namespace Курсовая
             }
         }
 
-        private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             DeletetUser();
-            Getaue(listBox1);
+            obnova();
+        }
+
+        public void comboup()
+        {
+            string com = $"SELECT id from Client";
+            conn.Open();
+            MySqlCommand sql = new MySqlCommand(com, conn);
+            MySqlDataReader reader = sql.ExecuteReader();
+            while (reader.Read())
+            {
+                comboBox1.Items.Add(reader.GetString(0));
+            }
+            reader.Close();
+            conn.Close();
+        }
+         public void obnova()
+        {
+            ochishaet(listBox1);
             GetListClient(listBox1);
         }
     }

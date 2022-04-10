@@ -23,6 +23,9 @@ namespace Курсовая
         {
             Program.Param poh = new Program.Param();
             conn = new MySqlConnection(poh.pod);
+            toolTip1.SetToolTip(this.button2, "База данных сотрудников");
+            toolTip2.SetToolTip(this.button4, "Складской учет");
+            toolTip3.SetToolTip(this.button3, "База данных Клиентов");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -44,5 +47,6 @@ namespace Курсовая
             Form3 Form3 = new Form3();
                 Form3.ShowDialog();
         }
+
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -39,6 +40,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -151,6 +153,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Name = "Form7";
+            this.Text = "Сотрудник";
             this.Load += new System.EventHandler(this.Form7_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -171,5 +174,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
