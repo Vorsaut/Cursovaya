@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form5 : Form
+    public partial class ClientForm5 : Form
     {
-        public Form5()
+        public ClientForm5()
         {
             InitializeComponent();
         }
@@ -73,7 +73,7 @@ namespace Курсовая
                 MessageBox.Show("Условия не выполнены");
                 conn.Close();
             }
-            
+            obnova();
         }
         public bool InsertTarif(string IFIO, int Iage, string Itarif, string Inumbers)
         {
@@ -122,6 +122,7 @@ namespace Курсовая
             {
                 MessageBox.Show("Произошла ошибка.", "Ошибка");
             }
+            obnova();
         }
 
         public void DeletetUser()

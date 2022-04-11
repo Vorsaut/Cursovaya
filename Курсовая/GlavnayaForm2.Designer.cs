@@ -1,7 +1,7 @@
 ﻿
 namespace Курсовая
 {
-    partial class Form2
+    partial class GlavnayaForm2
     {
         /// <summary>
         /// Required designer variable.

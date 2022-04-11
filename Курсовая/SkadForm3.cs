@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form3 : Form
+    public partial class SkadForm3 : Form
     {
         MySqlConnection conn;
         private MySqlDataAdapter MyDA = new MySqlDataAdapter();
@@ -20,7 +20,7 @@ namespace Курсовая
         private DataTable table = new DataTable();
         string id_selected_rows = "0";
 
-        public Form3()
+        public SkadForm3()
         {
             InitializeComponent();
         }
@@ -104,13 +104,13 @@ namespace Курсовая
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            Form9 form9 = new Form9();
+            NovTovarForm9 form9 = new NovTovarForm9();
             form9.ShowDialog();
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            Form10 form10 = new Form10();   
+            IzmenTovarForm10 form10 = new IzmenTovarForm10();   
             form10.ShowDialog();
         }
 

@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form7 : Form
+    public partial class DobanitSotrudForm7 : Form
     {
-        public Form7()
+        public DobanitSotrudForm7()
         {
             InitializeComponent();
         }

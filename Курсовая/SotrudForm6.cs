@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form6 : Form
+    public partial class SotrudForm6 : Form
     {
-        public Form6()
+        public SotrudForm6()
         {
             InitializeComponent();
         }
@@ -128,13 +128,13 @@ namespace Курсовая
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            Form7 form7 = new Form7();
+            DobanitSotrudForm7 form7 = new DobanitSotrudForm7();
             form7.ShowDialog();
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
-            Form8 form8 = new Form8();
+            IzmenitSotrudForm8 form8 = new IzmenitSotrudForm8();
             form8.ShowDialog();
         }
 

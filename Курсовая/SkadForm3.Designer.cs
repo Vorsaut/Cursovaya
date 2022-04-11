@@ -1,6 +1,6 @@
 ﻿namespace Курсовая
 {
-    partial class Form3
+    partial class SkadForm3
     {
         /// <summary>
         /// Required designer variable.

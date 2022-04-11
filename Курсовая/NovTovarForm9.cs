@@ -11,11 +11,11 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form9 : Form
+    public partial class NovTovarForm9 : Form
     {
         MySqlConnection conn;
 
-        public Form9()
+        public NovTovarForm9()
         {
             InitializeComponent();
         }

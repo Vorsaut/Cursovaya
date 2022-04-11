@@ -11,26 +11,26 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form10 : Form
+    public partial class IzmenitSotrudForm8 : Form
     {
         MySqlConnection conn;
 
-        public Form10()
+        public IzmenitSotrudForm8()
         {
             InitializeComponent();
         }
 
-        private void Form10_Load(object sender, EventArgs e)
+        private void Form8_Load(object sender, EventArgs e)
         {
             Program.Param poh = new Program.Param();
             conn = new MySqlConnection(poh.pod);
+            toolTip1.SetToolTip(this.button1, "Изменение данных");
             comboadd();
-            toolTip1.SetToolTip(this.button1, "Изменить значение товара");
         }
 
         public void comboadd()
         {
-            string com = "SELECT id FROM sklad";
+            string com = "SELECT id FROM Sotrudnik";
             conn.Open();
             MySqlCommand cmd = new MySqlCommand(com, conn);
             MySqlDataReader reader = cmd.ExecuteReader();
@@ -44,23 +44,29 @@ namespace Курсовая
 
         public void comboup()
         {
-            string com = $"SELECT * from sklad WHERE id={comboBox1.Text}";
+            string com = $"SELECT * from Sotrudnik WHERE id={comboBox1.Text}";
             conn.Open();
             MySqlCommand sql = new MySqlCommand(com, conn);
             MySqlDataReader reader = sql.ExecuteReader();
             while (reader.Read())
             {
-                label3.Text = "Название продукта - " + reader[1].ToString();
-                textBox1.Text = reader[2].ToString();
-                textBox2.Text = reader[3].ToString();
+                textBox1.Text = reader[1].ToString();
+                textBox2.Text = reader[2].ToString();
+                textBox3.Text = reader[3].ToString();
+                textBox4.Text = reader[4].ToString();
             }
             reader.Close();
             conn.Close();
         }
+        
+        private void comboBox1_TextChanged(object sender, EventArgs e)
+        {
+            comboup();
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sql = $"UPDATE sklad SET Quantity='{textBox1.Text}', Price='{textBox2.Text}' WHERE id={comboBox1.Text}";
+            string sql = $"UPDATE Sotrudnik SET FIO='{textBox1.Text}', age='{textBox2.Text}', doljnost='{textBox3.Text}', numbers='{textBox4.Text}' WHERE id={comboBox1.Text}";
             conn.Open();
             MySqlCommand com = new MySqlCommand(sql, conn);
             try
@@ -76,16 +82,6 @@ namespace Курсовая
                 MessageBox.Show("запись успешно отредактирована");
                 conn.Close();
             }
-        }
-
-        private void comboBox1_TextChanged(object sender, EventArgs e)
-        {
-            comboup();
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

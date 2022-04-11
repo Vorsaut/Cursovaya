@@ -1,7 +1,7 @@
 ﻿
 namespace Курсовая
 {
-    partial class Form5
+    partial class ClientForm5
     {
         /// <summary>
         /// Required designer variable.
@@ -198,7 +198,7 @@ namespace Курсовая
             this.comboBox1.Size = new System.Drawing.Size(61, 21);
             this.comboBox1.TabIndex = 17;
             // 
-            // Form5
+            // ClientForm5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -221,7 +221,8 @@ namespace Курсовая
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.Name = "Form5";
+            this.Name = "ClientForm5";
+            this.Text = "Клиенты";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

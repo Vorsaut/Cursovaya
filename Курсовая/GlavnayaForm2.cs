@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace Курсовая
 {
-    public partial class Form2 : Form
+    public partial class GlavnayaForm2 : Form
     {
-        public Form2()
+        public GlavnayaForm2()
         {
             InitializeComponent();
         }
@@ -31,21 +31,21 @@ namespace Курсовая
         private void button2_Click(object sender, EventArgs e)
         {
             {
-                Form6 Form6 = new Form6();
-                Form6.ShowDialog();
+                SotrudForm6 Form6 = new SotrudForm6();
+                Form6.Show();
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form5 Form5 = new Form5();
-            Form5.ShowDialog();
+            ClientForm5 Form5 = new ClientForm5();
+            Form5.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form3 Form3 = new Form3();
-                Form3.ShowDialog();
+            SkadForm3 Form3 = new SkadForm3();
+                Form3.Show();
         }
 
     }

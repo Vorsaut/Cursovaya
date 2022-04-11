@@ -1,7 +1,7 @@
 ﻿
 namespace Курсовая
 {
-    partial class Form1
+    partial class StartovoeForm1
     {
         /// <summary>
         /// Обязательная переменная конструктора.
