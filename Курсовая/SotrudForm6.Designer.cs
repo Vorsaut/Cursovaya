@@ -164,14 +164,15 @@
             this.toolStripLabel3.Size = new System.Drawing.Size(86, 22);
             this.toolStripLabel3.Text = "toolStripLabel3";
             // 
-            // Form6
+            // SotrudForm6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(823, 476);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Form6";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "SotrudForm6";
             this.Text = "Сотрудники";
             this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

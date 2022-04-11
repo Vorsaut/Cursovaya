@@ -29,6 +29,7 @@ namespace Курсовая
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientForm5));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -221,6 +222,7 @@ namespace Курсовая
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ClientForm5";
             this.Text = "Клиенты";
             this.Load += new System.EventHandler(this.Form5_Load);

@@ -130,12 +130,14 @@ namespace Курсовая
         {
             DobanitSotrudForm7 form7 = new DobanitSotrudForm7();
             form7.ShowDialog();
+            reload_list();
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             IzmenitSotrudForm8 form8 = new IzmenitSotrudForm8();
             form8.ShowDialog();
+            reload_list();
         }
 
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
