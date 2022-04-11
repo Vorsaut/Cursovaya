@@ -57,7 +57,7 @@ namespace Курсовая
             for (int i = 0; i < count_rows; i++)
             {
                 string id_selected_status = Convert.ToString(dataGridView1.Rows[i].Cells[3].Value);
-                if (id_selected_status == "Отпуск")
+                if (id_selected_status == "Уволен")
                 {
                     dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.Red;
                 }

@@ -73,7 +73,7 @@ namespace Курсовая
                 MessageBox.Show("Условия не выполнены");
                 conn.Close();
             }
-            obnova();
+            
         }
         public bool InsertTarif(string IFIO, int Iage, string Itarif, string Inumbers)
         {

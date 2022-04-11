@@ -319,5 +319,17 @@
   <ItemGroup>
     <None Include="Resources\neon-lights-background-theme_52683-44625.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-physical-fitness-exercise-silhouette-elderly-exercise-5b0cfd098f6829_0588154015275778655874.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-physical-fitness-exercise-silhouette-elderly-exercise-5b0cfd098f6829_05881540152757786558741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-physical-fitness-exercise-silhouette-elderly-exercise-5b0cfd098f6829_05881540152757786558742.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg_4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

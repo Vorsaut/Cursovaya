@@ -253,6 +253,39 @@ namespace Курсовая.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kisspng_physical_fitness_exercise_silhouette_elderly_exercise_5b0cfd098f6829_0588154015275778655874 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-physical-fitness-exercise-silhouette-elderly-exercise-5b0cfd098f6829_0588" +
+                        "154015275778655874", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_physical_fitness_exercise_silhouette_elderly_exercise_5b0cfd098f6829_05881540152757786558741 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-physical-fitness-exercise-silhouette-elderly-exercise-5b0cfd098f6829_0588" +
+                        "1540152757786558741", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_physical_fitness_exercise_silhouette_elderly_exercise_5b0cfd098f6829_05881540152757786558742 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-physical-fitness-exercise-silhouette-elderly-exercise-5b0cfd098f6829_0588" +
+                        "1540152757786558742", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap neon_lights_background_theme_52683_44625 {
             get {
                 object obj = ResourceManager.GetObject("neon-lights-background-theme_52683-44625", resourceCulture);
@@ -266,6 +299,16 @@ namespace Курсовая.Properties {
         internal static System.Drawing.Bitmap Papich_seksualno_stonet_sadyas_na_shpagat {
             get {
                 object obj = ResourceManager.GetObject("Papich-seksualno-stonet-sadyas-na-shpagat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngegg_4 {
+            get {
+                object obj = ResourceManager.GetObject("pngegg_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
