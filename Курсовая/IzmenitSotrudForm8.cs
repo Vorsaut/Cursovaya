@@ -54,6 +54,9 @@ namespace Курсовая
                 textBox2.Text = reader[2].ToString();
                 textBox3.Text = reader[3].ToString();
                 textBox4.Text = reader[4].ToString();
+                textBox5.Text = reader[5].ToString();
+                textBox6.Text = reader[6].ToString();
+                textBox7.Text = reader[7].ToString();
             }
             reader.Close();
             conn.Close();
@@ -66,7 +69,7 @@ namespace Курсовая
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sql = $"UPDATE Sotrudnik SET FIO='{textBox1.Text}', age='{textBox2.Text}', doljnost='{textBox3.Text}', numbers='{textBox4.Text}' WHERE id={comboBox1.Text}";
+            string sql = $"UPDATE Sotrudnik SET FIO='{textBox1.Text}', age='{textBox2.Text}', doljnost='{textBox3.Text}', numbers='{textBox4.Text}', ZP='{textBox5.Text}', ИНН='{textBox6.Text}', СНИЛС='{textBox7.Text}' WHERE id={comboBox1.Text}";
             conn.Open();
             MySqlCommand com = new MySqlCommand(sql, conn);
             try

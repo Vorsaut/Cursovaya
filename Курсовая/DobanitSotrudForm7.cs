@@ -23,7 +23,7 @@ namespace Курсовая
         private void button1_Click(object sender, EventArgs e)
         {
             int insert = 0;
-            string com = $"INSERT INTO Sotrudnik (FIO, age, doljnost, numbers) VALUES ('{textBox1.Text}', '{textBox2.Text}', '{textBox3.Text}', '{textBox4.Text}')";
+            string com = $"INSERT INTO Sotrudnik (FIO, age, doljnost, numbers, ZP, ИНН, СНИЛС) VALUES ('{textBox1.Text}', '{textBox2.Text}', '{textBox3.Text}', '{textBox4.Text}', '{textBox5.Text}', '{textBox6.Text}', '{textBox7.Text}')";
             MySqlCommand sql = new MySqlCommand(com, conn);
             conn.Open();
             try

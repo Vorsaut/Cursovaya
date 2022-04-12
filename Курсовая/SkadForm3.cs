@@ -69,6 +69,7 @@ namespace Курсовая
 
         public void DeleteItem()
         {
+            GetSelectedIDString();
             string sql_delete_user = "DELETE FROM sklad WHERE id='" + id_selected_rows + "'";
             MySqlCommand delete_user = new MySqlCommand(sql_delete_user, conn);
             try
@@ -93,13 +94,6 @@ namespace Курсовая
         {
             table.Clear();
             GetListUsers();
-        }
-
-        private void dataGridView1_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            dataGridView1.CurrentCell = dataGridView1[e.ColumnIndex, e.RowIndex];
-            dataGridView1.CurrentCell.Selected = true;
-            GetSelectedIDString();
         }
 
         private void toolStripButton1_Click(object sender, EventArgs e)

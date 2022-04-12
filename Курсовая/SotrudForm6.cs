@@ -35,16 +35,25 @@ namespace Курсовая
             dataGridView1.Columns[2].Visible = true;
             dataGridView1.Columns[3].Visible = true;
             dataGridView1.Columns[4].Visible = true;
+            dataGridView1.Columns[5].Visible = true;
+            dataGridView1.Columns[6].Visible = true;
+            dataGridView1.Columns[7].Visible = true;
             dataGridView1.Columns[0].FillWeight = 15;
-            dataGridView1.Columns[1].FillWeight = 40;
+            dataGridView1.Columns[1].FillWeight = 35;
             dataGridView1.Columns[2].FillWeight = 15;
             dataGridView1.Columns[3].FillWeight = 15;
             dataGridView1.Columns[4].FillWeight = 15;
+            dataGridView1.Columns[5].FillWeight = 15;
+            dataGridView1.Columns[6].FillWeight = 15;
+            dataGridView1.Columns[7].FillWeight = 15;
             dataGridView1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dataGridView1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dataGridView1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dataGridView1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dataGridView1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridView1.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridView1.Columns[6].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridView1.Columns[7].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.ColumnHeadersVisible = true;
             ChangeColorDGV();
@@ -75,7 +84,7 @@ namespace Курсовая
         public void GetListUsers()
         {
             table.Clear();
-            string commandStr = "SELECT id, FIO AS 'ФИО', age AS 'Возраст', doljnost AS 'Должность', numbers AS 'телефонный номер' FROM Sotrudnik";
+            string commandStr = "SELECT id, FIO AS 'ФИО', age AS 'Возраст', doljnost AS 'Должность', numbers AS 'телефонный номер', ZP AS 'Зарплата', ИНН AS 'ИНН', СНИЛС AS 'СНИЛС'  FROM Sotrudnik";
             conn.Open();
             MyDA.SelectCommand = new MySqlCommand(commandStr, conn);
             MyDA.Fill(table);
