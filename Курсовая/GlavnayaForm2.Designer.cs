@@ -103,12 +103,16 @@ namespace Курсовая
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 240);
+            this.button1.BackColor = System.Drawing.Color.Peru;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::Курсовая.Properties.Resources.free_icon_job_seeker_6404038;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(513, 155);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(116, 54);
             this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Прайс";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GlavnayaForm2
@@ -116,7 +120,7 @@ namespace Курсовая
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(630, 284);
+            this.ClientSize = new System.Drawing.Size(630, 209);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);

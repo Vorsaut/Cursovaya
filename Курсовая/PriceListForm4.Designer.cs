@@ -70,7 +70,7 @@
             // toolStripButton1
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.Image = global::Курсовая.Properties.Resources.premium_icon_add_button_5249076;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
@@ -91,7 +91,7 @@
             // toolStripButton2
             // 
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.Image = global::Курсовая.Properties.Resources.premium_icon_edit_3756640;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
@@ -101,8 +101,8 @@
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(70, 22);
-            this.toolStripLabel2.Text = "прехуярить";
+            this.toolStripLabel2.Size = new System.Drawing.Size(87, 22);
+            this.toolStripLabel2.Text = "Редактировать";
             // 
             // textBox1
             // 
@@ -130,7 +130,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 94);
+            this.label2.Location = new System.Drawing.Point(12, 90);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 13);
             this.label2.TabIndex = 5;
@@ -157,8 +157,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PriceListForm4";
-            this.Text = "PriceListForm4";
+            this.Text = "Тарифы";
             this.Load += new System.EventHandler(this.PriceListForm4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
