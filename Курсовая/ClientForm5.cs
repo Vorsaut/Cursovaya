@@ -68,7 +68,7 @@ namespace Курсовая
                 reader.Close();
                 conn.Close();
             }
-            catch(Exception aueshka)
+            catch(Exception osh)
             {
                 MessageBox.Show("Условия не выполнены");
                 conn.Close();
@@ -166,7 +166,7 @@ namespace Курсовая
             reader.Close();
             conn.Close();
         }
-         public void obnova()
+        public void obnova()
         {
             ochishaet(listBox1);
             GetListClient(listBox1);

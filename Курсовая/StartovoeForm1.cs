@@ -28,8 +28,10 @@ namespace Курсовая
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             GlavnayaForm2 Form2 = new GlavnayaForm2();
             Form2.ShowDialog();
+            this.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)

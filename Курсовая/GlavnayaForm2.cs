@@ -28,12 +28,18 @@ namespace Курсовая
             toolTip3.SetToolTip(this.button3, "База данных Клиентов");
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PriceListForm4 Form4 = new PriceListForm4();
+            Form4.Show();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            {
-                SotrudForm6 Form6 = new SotrudForm6();
-                Form6.Show();
-            }
+
+            SotrudForm6 Form6 = new SotrudForm6();
+            Form6.Show();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -45,8 +51,7 @@ namespace Курсовая
         private void button4_Click(object sender, EventArgs e)
         {
             SkadForm3 Form3 = new SkadForm3();
-                Form3.Show();
+            Form3.Show();
         }
-
     }
 }
